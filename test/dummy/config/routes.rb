@@ -3,7 +3,6 @@ Dummy::Application.routes.draw do
   resources :server, only: [:show] do
     collection do
       get :console_example
-      get :console_example_suppressed
       get :inline_component
     end
   end
