@@ -5,7 +5,7 @@ require 'react/rails/version'
 
 Gem::Specification.new do |s|
   s.name = 'react-rails'
-  s.version = React::Rails::VERSION
+  s.version = 2.0
   s.summary = 'React/JSX adapter for the Ruby on Rails asset pipeline.'
   s.description = 'Compile your JSX on demand or precompile for production.'
   s.homepage = 'https://github.com/reactjs/react-rails'
